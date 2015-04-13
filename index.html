@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat'>
+    <link rel="stylesheet" href="http://sscol.jebal.comuv.com/css/font.css">
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <title>Mega Video</title>
+</head>
+
+<body ng-app="mvApp">
+    
+    <mega-video 
+        width="60%"
+        mp4="https://archive.org/download/Duck_and_Cover/1951_duck_and_cover_512kb.mp4"
+        ogg="https://ia600500.us.archive.org/1/items/Duck_and_Cover/1951_duck_and_cover.ogv">
+    </mega-video>
+    
+    <mega-video
+        width="10%"
+        mp4="https://archive.org/download/Are_You_Keeping_Up_With_Your_Commodore_1983_Commodore_AU/Are_You_Keeping_Up_With_Your_Commodore_1983_Commodore_AU.mp4"
+        ogg="https://ia600707.us.archive.org/26/items/Are_You_Keeping_Up_With_Your_Commodore_1983_Commodore_AU/Are_You_Keeping_Up_With_Your_Commodore_1983_Commodore_AU.ogv">
+    </mega-video>
+    
+    <script data-require="angular.js@1.3.10" data-semver="1.3.10" src="https://code.angularjs.org/1.3.10/angular.js"></script>
+    <script src="megaVideoApp.js"></script>
+</body>
+</html>
